@@ -6,7 +6,7 @@
 
 A modern expense-splitting app built with **FastAPI**, **React**, **PostgreSQL**, and an **AI-powered chatbot**.
 
-![Demo](https://img.shields.io/badge/Demo-Live-green) ![Stack](https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20PostgreSQL-blue) ![AI Powered](https://img.shields.io/badge/AI-Hugging%20Face-orange)
+![Stack](https://img.shields.io/badge/Stack-FastAPI%20%7C%20React%20%7C%20PostgreSQL-blue) ![AI Powered](https://img.shields.io/badge/AI-Hugging%20Face-orange)
 
 ---
 
