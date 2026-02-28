@@ -28,7 +28,7 @@ A modern expense-splitting app built with **FastAPI**, **React**, **PostgreSQL**
 **AI & DevOps:** Hugging Face, Docker, Docker Compose
 
 ---
-### ** WHAT PROBLEM DOES IT SOLVE?**
+###  WHAT PROBLEM DOES IT SOLVE?
 
 **Real-World Problem:**
 
@@ -53,23 +53,23 @@ and different split methods.
 
 ---
 
-### ** CORE FEATURES**
+### CORE FEATURES
 
-#### **Feature 1: User Management**
+#### *Feature 1: User Management*
 
 - Create users with names and email
 - View user profiles
 - Track individual balance across all groups
 
 
-#### **Feature 2: Group Management**
+#### *Feature 2: Group Management*
 
 - Create expense groups (e.g., "Weekend Trip", "Roommate Expenses")
 - Add multiple members to each group
 - Track total expenses per group
 
 
-#### **Feature 3: Expense Tracking**
+#### *Feature 3: Expense Tracking*
 
 - Add expenses with description and amount
 - Specify who paid for the expense
@@ -82,7 +82,7 @@ and different split methods.
 
 
 
-#### **Feature 4: Balance Calculation**
+#### *Feature 4: Balance Calculation*
 
 - Automatic calculation of who owes whom
 - Shows net balances between group members
@@ -90,7 +90,7 @@ and different split methods.
 - Accurate to the cent (no rounding errors)
 
 
-#### **Feature 5: AI Chatbot**
+#### *Feature 5: AI Chatbot*
 
 - Ask natural language questions about expenses
 - Example queries:
@@ -106,9 +106,9 @@ and different split methods.
 
 ---
 
-## ** TECHNICAL ARCHITECTURE**
+##  TECHNICAL ARCHITECTURE
 
-### **Frontend (React + TypeScript)**
+### *Frontend (React + TypeScript)*
 
 - Modern, responsive UI with TailwindCSS
 - Type-safe development with TypeScript
@@ -116,8 +116,7 @@ and different split methods.
 - Real-time state management
 - Interactive forms with validation
 
-
-### **Backend (FastAPI + Python)**
+### *Backend (FastAPI + Python)*
 
 - RESTful API with automatic OpenAPI documentation
 - Pydantic for data validation
@@ -126,7 +125,7 @@ and different split methods.
 - Integration with Hugging Face AI models
 
 
-### **Database (PostgreSQL)**
+### *Database (PostgreSQL)*
 
 - Relational design for data integrity
 - ACID compliance for financial data
@@ -134,7 +133,7 @@ and different split methods.
 - Supports complex queries for balance calculations
 
 
-### **Infrastructure (Docker)**
+### *Infrastructure (Docker)*
 
 - Multi-container setup (Frontend, Backend, Database)
 - Consistent development and production environment
@@ -144,10 +143,10 @@ and different split methods.
 
 ---
 
-## ** IMPRESSIVE TECHNICAL ASPECTS**
+##  IMPRESSIVE TECHNICAL ASPECTS
 
 
-### **AI Integration**
+###*AI Integration*
 
 - Integrated Hugging Face API for natural language processing
 - Built intelligent fallback system for reliability
@@ -155,7 +154,7 @@ and different split methods.
 - Context-aware responses using actual database data
 
 
-### **API Design**
+### *API Design*
 
 - RESTful principles followed correctly
 - Automatic API documentation (Swagger/OpenAPI)
@@ -163,7 +162,7 @@ and different split methods.
 - CORS configuration for cross-origin requests
 
 
-### **Data Integrity**
+### *Data Integrity*
 
 - Handles edge cases (refunds, adjustments, rounding)
 - Prevents inconsistent states
