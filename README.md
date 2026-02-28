@@ -28,7 +28,147 @@ A modern expense-splitting app built with **FastAPI**, **React**, **PostgreSQL**
 **AI & DevOps:** Hugging Face, Docker, Docker Compose
 
 ---
+### ** WHAT PROBLEM DOES IT SOLVE?**
 
+**Real-World Problem:**
+
+- Friends go on trips together and share expenses
+- Someone buys groceries, someone pays for gas, someone books the hotel
+- At the end, who owes whom? How much? It gets complicated quickly
+
+
+**Example Scenario:**
+
+```plaintext
+Trip with 3 friends: Alice, Bob, Charlie
+- Alice pays $300 for hotel (split equally)
+- Bob pays $60 for groceries (split equally)
+- Charlie pays $90 for gas (split percentage-based)
+
+Who owes whom? The calculations become complex with multiple expenses 
+and different split methods.
+```
+
+**Solution:** Splitwise automates this completely and accurately.
+
+---
+
+### ** CORE FEATURES**
+
+#### **Feature 1: User Management**
+
+- Create users with names and email
+- View user profiles
+- Track individual balance across all groups
+
+
+#### **Feature 2: Group Management**
+
+- Create expense groups (e.g., "Weekend Trip", "Roommate Expenses")
+- Add multiple members to each group
+- Track total expenses per group
+
+
+#### **Feature 3: Expense Tracking**
+
+- Add expenses with description and amount
+- Specify who paid for the expense
+- Two split types:
+
+- **Equal Split**: Divides expense equally among group members
+- **Percentage Split**: Custom percentages for each person
+
+
+
+
+
+#### **Feature 4: Balance Calculation**
+
+- Automatic calculation of who owes whom
+- Shows net balances between group members
+- Prevents over-payment scenarios
+- Accurate to the cent (no rounding errors)
+
+
+#### **Feature 5: AI Chatbot**
+
+- Ask natural language questions about expenses
+- Example queries:
+
+- "How much does Alice owe in Weekend Trip?"
+- "Show me my latest 3 expenses"
+- "Who paid the most in Office Lunch?"
+
+
+
+- Fallback responses ensure reliability
+
+
+---
+
+## ** TECHNICAL ARCHITECTURE**
+
+### **Frontend (React + TypeScript)**
+
+- Modern, responsive UI with TailwindCSS
+- Type-safe development with TypeScript
+- Component-based architecture
+- Real-time state management
+- Interactive forms with validation
+
+
+### **Backend (FastAPI + Python)**
+
+- RESTful API with automatic OpenAPI documentation
+- Pydantic for data validation
+- SQLAlchemy ORM for database operations
+- Complex business logic for balance calculations
+- Integration with Hugging Face AI models
+
+
+### **Database (PostgreSQL)**
+
+- Relational design for data integrity
+- ACID compliance for financial data
+- Normalized schema preventing data duplication
+- Supports complex queries for balance calculations
+
+
+### **Infrastructure (Docker)**
+
+- Multi-container setup (Frontend, Backend, Database)
+- Consistent development and production environment
+- Easy scaling and deployment
+- Environment-agnostic configuration
+
+
+---
+
+## ** IMPRESSIVE TECHNICAL ASPECTS**
+
+
+### **AI Integration**
+
+- Integrated Hugging Face API for natural language processing
+- Built intelligent fallback system for reliability
+- Demonstrates understanding of modern AI/ML
+- Context-aware responses using actual database data
+
+
+### **API Design**
+
+- RESTful principles followed correctly
+- Automatic API documentation (Swagger/OpenAPI)
+- Proper error handling and validation
+- CORS configuration for cross-origin requests
+
+
+### **Data Integrity**
+
+- Handles edge cases (refunds, adjustments, rounding)
+- Prevents inconsistent states
+- Validates all inputs at multiple levels
+- Uses database constraints for enforcement
 ## 🚀 Quick Start
 
 ### Prerequisites
